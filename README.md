@@ -1,5 +1,5 @@
 ### Némó Seal, webáruház csöveseknek. Mármint csőszerelőknek.
-Webáruház Laravel alapon, 2023 körül készült.  
+A shop Laravel alapon, 2023 körül készült.  
 Az admin termékeket, ügyfeleket, rendeléseket kezel, van minden ami kellhet.  
 Egyedi árazás ügyfélcsoportonként, exportok, importok, Egyszerű CMS is.<br/><br/>
 ![Admin.](public/storage/ss_00.jpg)<br/>
