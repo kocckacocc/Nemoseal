@@ -8,7 +8,7 @@ Az ügyfél beléphet, fiókjában láthatja a szokásos dolgokat, adatok, rende
 Frontenden rendelhet, sokat.<br/><br/>
 ![Frontend.](public/storage/ss_01.jpg)<br/>
 <br/>
-Rendeléskor az érintettek mailt kapnak, melyben csatolmányként PDF-et is megy a rendelésről, ilyesmi: 
-[PDF a rendelésről](public/storage/pdf/Rendelés_100.pdf)<br/>
+Rendeléskor az érintettek mailt kapnak, melyben csatolmányként PDF is megy a rendelésről, 
+[ilyesmi](public/storage/pdf/Rendelés_100.pdf)<br/>
 <br/>
 Hát ennyi.  
