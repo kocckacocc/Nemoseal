@@ -1,0 +1,29 @@
+[
+	{
+		"name": "Bela",
+		"email": "hegyes.bela@gmail.com",
+		"password": "",
+		"type": 1,
+		"state": 1
+	},
+	{
+		"name": "Gabor",
+		"email": "pekarek.gabor@gmail.com",
+		"password": "",
+		"type": 1,
+		"state": 1
+	},
+	{
+		"name": "Szimpli",
+		"email": "szimpli@gmail.com",
+		"password": "12345678",
+		"type": 0,
+		"state": 0,
+		"company": "Szimpli cége",
+		"taxno": "12345679-0-12",
+		"lastname": "Kiss",
+		"firstname": "Pista",
+		"phone": "06 70/123-4567",
+		"price_lists_id": 1
+	}
+]

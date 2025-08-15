@@ -1,0 +1,1 @@
+<img class="relative z-10 w-full h-16" src="/assets/images/nemoseal-logo-alt.svg" alt="Némo Seal logó" loading="lazy">

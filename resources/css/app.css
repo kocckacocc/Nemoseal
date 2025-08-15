@@ -1,0 +1,140 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+::selection {
+    background: #58a088;
+    color: #0b0e11;
+}
+::-moz-selection {
+    background: #58a088;
+    color: #0b0e11;
+}
+
+@layer components {
+    .page-header {
+        @apply relative z-0 bg-neutral;
+    }
+    .page-header__title {
+        @apply max-w-5xl text-2xl font-extrabold tracking-tight text-white uppercase font-display md:text-4xl xl:text-5xl xl:leading-tight;
+    }
+    .background__shape {
+        @apply fixed inset-y-0 mx-auto transform w-280 h-640 shadow-3xl from-neutral skew-x-45 inset-x-1/2 -z-10 bg-gradient-to-l opacity-10;
+    }
+    .btn {
+        @apply relative inline-flex items-center px-4 py-2 text-sm font-bold uppercase transition duration-200 ease-in-out border border-transparent rounded-md shadow-sm text-neutral bg-secondary hover:bg-secondary-light hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-0;
+    }
+    .btn-link {
+        @apply inline-flex items-center space-x-4 font-medium transition duration-200 ease-in-out text-secondary hover:text-secondary-light font-display group hover:space-x-8;
+    }
+    .form__legend {
+        @apply text-lg font-medium leading-6 text-white;
+    }
+    .form__label {
+        @apply block text-sm font-medium text-white;
+    }
+    .form__control {
+        @apply block w-full px-3 py-2 border border-transparent rounded-md shadow-sm appearance-none placeholder-neutral-light focus:ring-secondary focus:border-secondary focus:outline-none focus:ring-2 sm:text-sm;
+    }
+    .os-content {
+        @apply flex flex-col h-full !important;
+    }
+}
+
+[x-cloak] {
+    display: none !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+p[data-name="Belső végzáró ALUMINIUM"]::after,
+p[data-name="Belső végzáró PVC"]::after,
+p[data-name="Csődoktor Extreme"]::after,
+p[data-name="Javító szalag"]::after,
+p[data-name="Külső-belső csőtoldó"]::after,
+p[data-name="Multi csőszűkítő"]::after {
+    content: "CRA";
+}
+
+p[data-name="Chem gumimandzsetta egyenes csőtoldó"]::after,
+p[data-name="Gumimandzsetta egyenes toldó"]::after {
+    content: "VDC";
+}
+
+p[data-name="Chem gumimandzsetta egyenes csőtoldó acél merevítőpánttal"]::after,
+p[data-name="Gumimandzsetta egyenes csőtoldó acél merevítőpánttal"]::after {
+    content: "VSC";
+}
+
+p[data-name="Chem gumimandzsetta szűkítő"]::after,
+p[data-name="Gumimandzsetta szűkítő"]::after {
+    content: "VAC";
+}
+
+p[data-name="Csőbilincs"]::after {
+    content: "W1";
+}
+
+p[data-name="Extra széles gumimandzsetta egyenes toldó acél merevítőpánttal"]::after {
+    content: "VSC W";
+}
+
+p[data-name="Falátvezető tömítőgyűrű"]::after {
+    content: "VWS";
+}
+
+p[data-name="Kenőanyagok"]::after {
+    content: "VIN";
+}
+
+p[data-name="Nagy gumimandzsetta egyenes csőtoldó"]::after {
+    content: "VLC";
+}
+
+p[data-name="Szigetelő gallér"]::after {
+    content: "VPF";
+}
+
+small[data-name="Csőbilincs"] {
+    display: none;
+}
+
+/* .shiny {
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.shiny::after {
+  content: '';
+  position: absolute;
+  top: calc(var(--y, 0) * 1px - 50px);
+  left: calc(var(--x, 0) * 1px - 50px);
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(#2c2a2a, #3984ff00 80%);
+
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.shiny:hover::after {
+  opacity: 0.4;
+} */
+
+.category-description ul {
+    @apply pl-4 ml-4 list-disc;
+}
+
+.fancybox__image {
+    @apply rounded-lg;
+}
